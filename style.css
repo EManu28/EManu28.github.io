@@ -10,8 +10,8 @@
 /* Mise en forme BODY */
 body
 {
-	background-color: black;
-	color: white; text-align: center;
+	background-color: white;
+	color: black; text-align: center;
 	font-family: "Trebuchet MS", serif;
 	text-align: center;
 }
@@ -113,16 +113,6 @@ span
 	width: 95vw; margin: auto;
 	text-align: center;
 }
-/* Apparition image Cannes 1993 */
-.culture a span 
-{
-display:none;
-}
-.culture a:hover span 
-{
-display:block;
-margin:0 0 0 0:
-} 
 
 /* Mise en forme Carroussel */
 #slideshow 
@@ -304,8 +294,8 @@ margin:0 0 0 0:
 /* Mise en forme Pied de page */
 footer
 {
-	background-color: black;
-	color: white; text-align: center;
+	background-color: white;
+	color: black; text-align: center;
 }
 
 
