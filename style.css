@@ -220,7 +220,7 @@ span
 	text-shadow: -1px -1px 0 rgba(255,255,255,0.3);
 }
 
-/* fonction d'animation, n'oubliez pas de prefixer ! */
+/* fonction d'animation */
 @keyframes slider 
 {
 	0%, 10%, 100%	{ left: 0 }
@@ -254,10 +254,9 @@ span
 	75%, 85%		{ left: -600% }
 	87.5%, 95%		{ left: -700% }
 }
-/* complétez le sélecteur : */
+/* propriété d'animation du sélecteur : */
 #slideshow .slider 
 {
-	/* ... avec la propriété animation */
 	animation: slider 64s infinite;
 }
 @keyframes figcaptionner 
@@ -265,10 +264,9 @@ span
 	0%, 13%, 24%, 27%, 37%, 41%, 49%, 53%, 61%, 66%, 74%, 78%, 87%, 91%, 98%, 100%		{ bottom: -55px;	}	/* Panneau en bas */
 	18%, 22%, 29%, 35%, 43%, 47%, 55%, 59%, 68%, 72%, 80%, 85%, 93%, 97%		{ bottom: 0px;		}	/* Panneau en haut */
 }
-/* ajouter à l'élément : */
+/* propriété d'animation de l'élément : */
 #slideshow figcaption 
 {
-	/* ... la propriété animation */
 	animation: figcaptionner 64s infinite;
 }
 
